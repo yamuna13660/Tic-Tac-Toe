@@ -1,0 +1,64 @@
+body
+{
+    background-color: aqua;
+    text-align: center;
+}
+.container
+{
+    height:70vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+h1
+{
+    text-align: center;
+}
+.boxes
+{
+    height:60vmin;
+    width:60vmin;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+}
+.box
+{
+    height:18vmin;
+    width:18vmin;
+    border-radius: 8px;
+    font-size:70px;
+    background-color: aliceblue;
+    color:brown;
+}
+#reset
+{
+    height:50px;
+    width:100px;
+    border-radius: 8px;
+    font-size: 15px;
+    border:none;
+    background-color:brown;
+    color:white;
+}.msg-container
+{
+    height:20vhp;
+}
+#new
+{
+    height:50px;
+    width:100px;
+    border-radius: 8px;
+    font-size: 15px;
+    background-color:brown;
+    color:white;
+}#msg
+{
+    font-size: 25px;
+}
+.hide
+{
+    display:none;
+}
